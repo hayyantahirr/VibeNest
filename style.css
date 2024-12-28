@@ -117,31 +117,31 @@ img {
   color: var(--body);
   height: 70%;
 }
-.music{
+.music {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   max-width: 1000px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-.music-title{
+.music-title {
   font-size: 3rem;
   margin-top: 10px;
 }
-.music-subtitle{
+.music-subtitle {
   font-size: 2rem;
   /* margin-bottom: 1rem; */
   font-weight: 100;
   margin-top: 15px;
 }
-.music-desc{
+.music-desc {
   font-size: 1.2rem;
   text-align: center;
   margin-top: 15px;
   width: 80%;
 }
-.music-btn{
+.music-btn {
   background-color: var(--red600);
   color: var(--body);
   padding: 1rem;
@@ -154,38 +154,41 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-.music-para{
+.music-para {
   font-size: 1rem;
   margin-top: 20px;
   text-align: center;
 }
-.ipad{
+.ipad {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
 }
-.ipad-iphone{
+.ipad-iphone {
   width: 60%;
+  position: relative;
+  margin-top: -400px;
+  top: 400px;
 }
 
 /* mac section  */
 
-.mac-section{
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- 
+.mac-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
 }
-.mac-title{
+.mac-title {
   font-size: 2.5rem;
   color: #000000;
   font-weight: 200;
   /* text-align: center; */
   margin-top: 50px;
 }
-.mac-desc{
+.mac-desc {
   opacity: 0.6;
   font-size: 1.5rem;
   color: #000000;
@@ -193,7 +196,7 @@ img {
   text-align: center;
 }
 
-.mac-btn{
+.mac-btn {
   margin-top: 30px;
   background-color: var(--purple300);
   width: 10%;
@@ -201,7 +204,45 @@ img {
   color: var(--body);
   border: transparent;
 }
-.mac{
+.mac {
   margin-top: 30px;
+  width: 80%;
+}
+
+/* entertainment section  */
+.entertainment {
+  background-image: url(./Assets/video.png);
+  min-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: var(--purple500); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 30px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.entertainment-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: var(--body);
+}
+.entertainment-title {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.entertainment-desc {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 15px;
   width: 80%;
 }
