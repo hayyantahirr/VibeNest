@@ -8,7 +8,7 @@
   text-decoration: none;
   list-style: none;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 html,
@@ -110,3 +110,61 @@ img {
 }
 
 /* music section  */
+
+.music-section {
+  padding: 2rem;
+  background-color: var(--purple500);
+  color: var(--body);
+  height: 70%;
+}
+.music{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  max-width: 1000px;
+  margin: 0 auto; 
+}
+.music-title{
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.music-subtitle{
+  font-size: 2rem;
+  /* margin-bottom: 1rem; */
+  font-weight: 100;
+  margin-top: 15px;
+}
+.music-desc{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 15px;
+  width: 80%;
+}
+.music-btn{
+  background-color: var(--red600);
+  color: var(--body);
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border-color: transparent;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.music-para{
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+.ipad{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.ipad-iphone{
+  width: 60%;
+}
