@@ -8,7 +8,7 @@
   text-decoration: none;
   list-style: none;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html,
@@ -170,3 +170,38 @@ img {
 }
 
 /* mac section  */
+
+.mac-section{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ 
+}
+.mac-title{
+  font-size: 2.5rem;
+  color: #000000;
+  font-weight: 200;
+  /* text-align: center; */
+  margin-top: 50px;
+}
+.mac-desc{
+  opacity: 0.6;
+  font-size: 1.5rem;
+  color: #000000;
+  width: 70%;
+  text-align: center;
+}
+
+.mac-btn{
+  margin-top: 30px;
+  background-color: var(--purple300);
+  width: 10%;
+  height: 40px;
+  color: var(--body);
+  border: transparent;
+}
+.mac{
+  margin-top: 30px;
+  width: 80%;
+}
