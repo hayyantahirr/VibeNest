@@ -8,7 +8,7 @@
   text-decoration: none;
   list-style: none;
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 html,
@@ -247,46 +247,41 @@ img {
   width: 80%;
 }
 
-
 /* gift card section  */
 
-.gift-content{
+.gift-content {
   display: flex;
   align-items: start;
   justify-content: center;
   margin-top: 50px;
 }
-.gift-img{
- display: flex;
- align-items: center;
- justify-content: end;
- margin-right: 50px;
+.gift-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 50px;
 }
-.gift-card{
+.gift-card {
   width: 75%;
-
-  
 }
-.gift-title{
+.gift-title {
   font-size: 2.8rem;
   color: #000000;
   /* font-weight: 200; */
   /* text-align: center; */
   /* margin-top: 10px; */
 }
-.gift-desc{
-  
+.gift-desc {
   font-size: 1.5rem;
   color: #000000;
   width: 50%;
   text-align: left;
-  
 }
-.gift-para{
-margin-top: 25px;
+.gift-para {
+  margin-top: 25px;
 }
 
-.gift-sub{
+.gift-sub {
   font-size: 1.5rem;
   color: #000000;
   width: 100%;
@@ -295,7 +290,29 @@ margin-top: 25px;
   font-weight: 100;
   padding-bottom: 30px;
   border-bottom: gray 1px solid;
-  
 }
 
 /* footer started */
+.footer {
+  background-color: var(--purple600);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  color: var(--body);
+}
+
+.footer-head {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  text-decoration: underline;
+  font-weight: 100;
+}
+.footer-desc {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
